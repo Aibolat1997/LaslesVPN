@@ -1,0 +1,13 @@
+$pink: #F53838;
+$shadow: 0 10px 15px rgba(245, 56, 56, 0.35);
+$grey: #4F5665;
+$white: #FFFFFF;
+$lightblue: #0B132A;
+
+%hover {
+    background: $pink;
+    color: white;
+    box-shadow: $shadow;
+    transition-duration: .5s;
+}
+

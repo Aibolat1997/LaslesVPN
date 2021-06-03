@@ -1,0 +1,54 @@
+.promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+
+    &__picture {
+        width: 100%;
+    }
+
+    &__item {
+        max-width: 383px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+
+        &--title {
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 50px;
+            color: $lightblue;
+        }
+
+        &--text {
+            font-size: 16px;
+            line-height: 30px;
+            color: $grey;
+        }
+    }
+
+    &__lists {
+
+        &--item {
+            display: inline-flex;
+            align-items: center;
+            font-size: 14px;
+            line-height: 30px;
+            color: $lightblue;
+            list-style-type: none;
+            background: url(../design/mark.svg) left center no-repeat;
+            padding-left: 45px;
+        }
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .promo {
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: "Rubik", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+@import "variables";
+
+@import "header";
+
+@import "main";
+
+@import "statistic";
+
+@import "promo";
+
+@import "info";
+
+@import "map";
+
+@import "content";
+
+@import "footer";
